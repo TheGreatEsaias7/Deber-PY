@@ -98,5 +98,5 @@ def menu():
         else:
             print("Opción no válida, intenta de nuevo.")
 
-# Ejecutar el programa
+# Solicitar la ejecucion del programa
 menu()
