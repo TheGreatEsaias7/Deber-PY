@@ -52,7 +52,7 @@ def jugar():
     if intentos_restantes == 0:
         print(f"😢 Te quedaste sin intentos. El número secreto era {numero_secreto}. ¡Mejor suerte la próxima vez!")
 
-# Función para calcular puntuación
+# Función para calcular la puntuación
 def calcular_puntuacion(intentos_usados, intentos_restantes, nivel):
     niveles = {"1": 1, "2": 2, "3": 3}
     puntos_base = niveles.get(nivel, 2) * 100
